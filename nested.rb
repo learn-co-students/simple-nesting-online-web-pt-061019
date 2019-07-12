@@ -7,12 +7,12 @@ def hopper
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => "Object Orientation",
+          :alam_kay_is_known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :dennis_ritchies_languages => ["C"]
         }
      }
 
@@ -66,6 +66,11 @@ def adding_matz
 
 	programmer_hash = 
  		{
+ 		    :yukihiro_matsumoto => {
+ 		      :known_for => "Ruby",
+ 		      :languages => ["LISP","C"]
+ 		    },
+ 		    
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
@@ -91,7 +96,7 @@ def changing_alan
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => "Object Orientation",
+          :known_for => "GUI",
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
@@ -118,7 +123,7 @@ def adding_to_dennis
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => ["C", "Assembly"]
         }
      }
 
